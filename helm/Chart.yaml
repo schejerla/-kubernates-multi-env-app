@@ -1,0 +1,23 @@
+apiVersion: v2
+name: my-dotnet-app
+version: 0.1.0
+description: A Helm chart for a .NET application
+
+# Optional, but recommended for applications
+maintainers:
+  - name: Your Name
+    email: your-email@example.com
+
+icon: https://example.com/icon.png # Optional icon for the chart
+
+dependencies:
+  - name: some-dependency
+    version: 1.2.3
+    repository: https://example.com/charts
+
+# If your charts include templates, you can specify the templates used
+# templates:
+#   - deployment.yaml
+#   - service.yaml
+#   - ...
+
